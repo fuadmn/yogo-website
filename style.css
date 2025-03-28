@@ -152,8 +152,26 @@ nav{
     background-color: aqua;
     height: 90vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-min-an-1234035.jpg') bottom/ cover no-repeat; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.work{
+    color: white;
+    text-transform: capitalize;
+}
+
+.with{
+    font-size: 7rem;
+    margin: 1.5rem 0;
+}
+
+.gym{
+    color: red;
+}
 /**********************************section-3********************************/
 
 
@@ -262,34 +280,27 @@ p{
 
 /*****************************section-three********************************/
 
-.imge-one{
+.kaah{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-min-an-1234035.jpg') bottom/ cover no-repeat; 
     height: 27rem;
-    margin-bottom: 10rem;
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.imge-one img{
-    width: 100%;
-}
-
-.metus .font_h1{
-    font-size: 2.7rem;
+.on{
     color: white;
-    font-weight: 900;
+    font-size: 3rem;
 }
 
-.More{
+.link{
     color: red;
 }
 
-.consectetur{
-    color: white;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+.placerat{
     margin-top: 1rem;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .btn{
@@ -302,9 +313,8 @@ p{
 }
 
 .btn:hover{
-    background-color: rgb(218, 54, 54);
+    background-color: rgb(197, 65, 65);
 }
-
 /*****************************section-five********************************/
 
 .Training{
@@ -558,7 +568,10 @@ footer{
     .Choose-Program_a {
         font-size: 1rem;
         padding: 0 1.375rem;
-        
+    }
+
+    .Choose-Program{
+        margin-bottom: 7rem;
     }
 
     .consectetur{
@@ -591,11 +604,17 @@ footer{
 
 
 
-    .imge-one{
+    .enim{
         padding: 0 1.375rem;
     }
 
+    .on{
+        font-size: 2rem;
+    }
 
+    .placerat{
+        font-size: 1rem;
+    }
     
 
 
@@ -695,6 +714,10 @@ footer{
     
     .navigation-bar.active {
         display: flex;
+    }
+
+    .work{
+        font-size: 2em;
     }
 }
 
